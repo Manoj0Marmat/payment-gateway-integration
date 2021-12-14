@@ -152,13 +152,21 @@ body{
 .razorpay-payment-button.svelte-ohbfj8, .razorpay-payment-button.svelte-ohbfj8 *, .razorpay-payment-button.svelte-ohbfj8 *::before, .razorpay-payment-button.svelte-ohbfj8 *::after {
     margin-left: auto;
     margin-right: auto;
-    
+}
+.PaymentButton--rzpTheme.svelte-ekc7fv.svelte-ekc7fv::before {
+    background: rgba(0, 128, 0, 0.6) !important;
 }
 .razorpay-payment-button a {
     height:50px!important;
     background: rgba(0, 128, 0, 0.6) !important;
+color: white !important;
 backdrop-filter: blur(6px) saturate(200%) !important;
   -webkit-backdrop-filter: blur(6px) saturate(200%) !important;
   border: 5px solid rgba(0, 128, 0, 0.125) !important;
+}
+svg[Attributes Style] {
+    width: 18;
+    height: 20;
+    fill: white;
 }
 `;
